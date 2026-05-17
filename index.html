@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecția 8 — In Annettes Klasse (Plural) · A1.1 · Annettes Deutschkurs</title>
+    <meta property="og:title" content="A1.1 Lecția 8 — In Annettes Klasse · Pluralbildung · Annettes Deutschkurs">
+    <meta property="og:description" content="Articolul la plural (die/Ø/keine) + cele 5 tipare de plural (-e, -er, -(e)n, -s, -Ø) + Umlaut · Claudia Toth">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ro_RO">
+    <meta name="description" content="A1.1 Lecția 8: Artikel im Plural + Pluralbildung — cele 5 tipare de plural · Claudia Toth">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#top" class="navbar-logo">ʚଓ Claudia Toth</a>
+        <ul class="navbar-menu">
+            <li><a href="#teorie" onclick="openSection(0)">Teorie</a></li>
+            <li><a href="#ex1" onclick="openSection(1)">Ex. 1</a></li>
+            <li><a href="#ex2" onclick="openSection(2)">Ex. 2</a></li>
+            <li><a href="#ex3" onclick="openSection(3)">Ex. 3</a></li>
+            <li><a href="#ex4" onclick="openSection(4)">Ex. 4</a></li>
+            <li><a href="#ex5" onclick="openSection(5)">Ex. 5</a></li>
+            <li><a href="#flashcards" onclick="openSection(6)">📇 Flashcards</a></li>
+            <li><a href="#final-test" onclick="openSection(7)">🎯 Test Final</a></li>
+            <li><a href="annettes-klasse.pdf" download>📄 PDF</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="top">
+        <div class="header">
+            <h1>ʚଓ Lecția 8 — In Annettes Klasse</h1>
+            <p class="subtitle">Pluralbildung: articolul la plural + cele 5 tipare de plural · A1.1</p>
+            <p>Claudia Toth · Annettes Deutschkurs</p>
+        </div>
+
+        <div class="content">
+            <div class="section" id="teorie">
+                <div class="section-header" onclick="toggleMainSection(0)">
+                    <h3>ʚଓ TEORIE</h3>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="section-content" id="main-section-0">
+                    <div id="theory-container"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex1">
+                <div class="section-header" onclick="toggleMainSection(1)">
+                    <h3>ʚଓ Übung 1: Articolul la plural (die / keine)</h3>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="section-content" id="main-section-1">
+                    <div id="ex1-container"></div>
+                    <div class="btn-container">
+                        <button class="btn btn-check" onclick="checkExercise(1)">✓ Verifica</button>
+                        <button class="btn btn-reset" onclick="resetExercise(1)">↻ Reseteaza</button>
+                    </div>
+                    <div class="score" id="score-1"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex2">
+                <div class="section-header" onclick="toggleMainSection(2)">
+                    <h3>ʚଓ Übung 2: Plural feminin -(e)n (regula sigură)</h3>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="section-content" id="main-section-2">
+                    <div id="ex2-container"></div>
+                    <div class="btn-container">
+                        <button class="btn btn-check" onclick="checkExercise(2)">✓ Verifica</button>
+                        <button class="btn btn-reset" onclick="resetExercise(2)">↻ Reseteaza</button>
+                    </div>
+                    <div class="score" id="score-2"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex3">
+                <div class="section-header" onclick="toggleMainSection(3)">
+                    <h3>ʚଓ Übung 3: Plural masc -e / neutru -er (+ Umlaut)</h3>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="section-content" id="main-section-3">
+                    <div id="ex3-container"></div>
+                    <div class="btn-container">
+                        <button class="btn btn-check" onclick="checkExercise(3)">✓ Verifica</button>
+                        <button class="btn btn-reset" onclick="resetExercise(3)">↻ Reseteaza</button>
+                    </div>
+                    <div class="score" id="score-3"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex4">
+                <div class="section-header" onclick="toggleMainSection(4)">
+                    <h3>ʚଓ Übung 4: Schulsachen — pluralul obiectelor</h3>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="section-content" id="main-section-4">
+                    <div id="ex4-container"></div>
+                    <div class="btn-container">
+                        <button class="btn btn-check" onclick="checkExercise(4)">✓ Verifica</button>
+                        <button class="btn btn-reset" onclick="resetExercise(4)">↻ Reseteaza</button>
+                    </div>
+                    <div class="score" id="score-4"></div>
+                </div>
+            </div>
+
+            <div class="section" id="ex5">
+                <div class="section-header" onclick="toggleMainSection(5)">
+                    <h3>ʚଓ Übung 5: Negație plural + capcana -in → -innen</h3>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="section-content" id="main-section-5">
+                    <div id="ex5-container"></div>
+                    <div class="btn-container">
+                        <button class="btn btn-check" onclick="checkExercise(5)">✓ Verifica</button>
+                        <button class="btn btn-reset" onclick="resetExercise(5)">↻ Reseteaza</button>
+                    </div>
+                    <div class="score" id="score-5"></div>
+                </div>
+            </div>
+
+            <div class="section" id="flashcards">
+                <div class="section-header" onclick="toggleMainSection(6)">
+                    <h3>ʚଓ Flashcards - Învață pluralul cu pronunție</h3>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="section-content" id="main-section-6">
+                    <div id="flashcards-container"></div>
+                </div>
+            </div>
+
+            <div class="section" id="final-test">
+                <div class="section-header" onclick="toggleMainSection(7)">
+                    <h3>ʚଓ 🎯 Test Final - Testează-ți cunoștințele!</h3>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="section-content" id="main-section-7">
+                    <div id="final-test-container"></div>
+                </div>
+            </div>
+
+            <div class="theory-box" style="text-align: center; margin-top: 40px;">
+                <p style="font-size: 1.3rem; font-weight: bold; color: #065f46;">🎉 Bravo! Acum poți vorbi despre mai multe lucruri!</p>
+                <p style="margin-top: 12px;">Știi <strong>singurul articol de plural</strong> (die), negația <strong>keine</strong>, <strong>Nullartikel Ø</strong>, cele <strong>5 tipare</strong> (-e, -er, -(e)n, -s, -Ø), <strong>Umlaut</strong>-ul și capcana <strong>-in → -innen</strong>. Pluralul = relaxarea după genurile din Lecția 7. 📚</p>
+                <p style="margin-top: 10px;">Urmează <strong>Lecția 9 — Possessivpronomen</strong>: paradigma completă a posesivelor (mein, dein, <strong>sein, ihr, unser, euer</strong>) — continuarea lui mein/dein din Lecția 7. 🦋</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="theory.js"></script>
+    <script src="exercises.js"></script>
+    <script src="flashcards.js"></script>
+    <script src="final-test.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
